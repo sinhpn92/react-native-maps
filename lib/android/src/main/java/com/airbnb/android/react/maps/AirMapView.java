@@ -853,8 +853,8 @@ public class AirMapView extends MapView implements GoogleMap.InfoWindowAdapter,
     } else {
       map.moveCamera(cu);
     }
-    map.setPadding(0, 0, 0,
-        0); // Without this, the Google logo is moved up by the value of edgePadding.bottom
+    //map.setPadding(0, 0, 0,
+        //0); // Without this, the Google logo is moved up by the value of edgePadding.bottom
   }
 
   public double[][] getMapBoundaries() {
